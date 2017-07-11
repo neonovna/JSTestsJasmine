@@ -26,5 +26,5 @@ prompt.get(['username'], function(err, result) {
 var prompt = require('prompt');
 prompt.start();
 prompt.get(['number1', 'number2'], function(err, result) {
-  console.log("The sum is: " + (parseInt(result.number1) + parseInt(result.number2)))
+  console.log("The sum is: " + (parseInt(result.number1, 10) + parseInt(result.number2)))
 })

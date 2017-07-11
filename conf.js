@@ -6,7 +6,7 @@ exports.config = {
   framework: 'jasmine2',
 
   suites: {
-    get: './tests/get.js'
+    get: './practical/browser.js'
   },
 
   capabilities: {
